@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yas Bakery - Our Cakes</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Yas Bakery - Our Cakes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="content1.html">Our Cakes</a></li>
+                <li><a href="content2.html">Special Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name " id="name" required>
+                <input type="email" placeholder="Your Email " id="email" required>
+                <input type="text" placeholder="Your Mobile Number" id="number" required>
+                <textarea name="message" id="message" cols="35" rows="10" placeholder="Message" required></textarea>
+                <button type="submit" onclick="sendMail(event)">Send The Message</button>
+            </form>
+        </div>
+</section> 
+
+<footer>
+    <p>&copy; 2023 Yas Bakery. All rights reserved. &nbsp; &hearts;</p>
+</footer>
+</body>
+</html>
